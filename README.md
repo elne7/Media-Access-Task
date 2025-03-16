@@ -1,16 +1,16 @@
 # media_access_task
 
-A new Flutter project.
+A new Flutter task that access media files on the device and display them in a list.
 
-## Getting Started
+## **Features**
 
-This project is a starting point for a Flutter application.
+- Access media files on the device using the `Image_Picker` package.
+- Display the media files in a list using the `ListView` widget.
 
-A few resources to get you started if this is your first Flutter project:
+## **Dependances & Permissions**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `image_picker` package for accessing media files.
+- `android.permission.INTERNET` permission for accessing the internet.
+- `android.permission.CAMERA` permission for accessing the camera.
+- `android.permission.READ_EXTERNAL_STORAGE` permission for reading external storage.
+- `android.permission.WRITE_EXTERNAL_STORAGE` permission for writing external storage.
